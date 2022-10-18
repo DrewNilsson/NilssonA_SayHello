@@ -4,17 +4,19 @@
 //This is a console project that will say hello
 //Peer Review by: Caroline - great amazing ran good and was funny !
 
+
+Console.Clear();
 string play = "yes";
 while (play == "yes")
 {
 
     Console.WriteLine("What is your Name?");
 
-    string? myName = Console.ReadLine();
+    string myName = Console.ReadLine();
 
     Console.WriteLine("Say hello " + myName);
 
-    string? playInput = "";
+    string playInput = "";
     while (playInput != "yes" && playInput != "no")
     {
         Console.WriteLine("\n" + "If you would like to enter another name type yes, enter no if not.");
